@@ -1,3 +1,5 @@
+import "../styles/Create.scss";
+
 const Create = () => {
   return (
     <div className="create">

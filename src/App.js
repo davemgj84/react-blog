@@ -11,6 +11,7 @@ import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Create from "./components/Create";
+import BlogDetails from "./components/BlogDetails";
 
 const App = () => {
   const _ScrollToTop = (props) => {
@@ -34,6 +35,7 @@ const App = () => {
               </Route>
               <Route path="/home" component={Home} />
               <Route path="/create" component={Create} />
+              <Route path="/blogs/:id" component={BlogDetails} />
             </Switch>
           </ScrollToTop>
         </div>
