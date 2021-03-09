@@ -1,15 +1,37 @@
+import { Link, NavLink } from "react-router-dom";
 import "../styles/Navbar.scss";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <h1>
-        <a href="/">The React Blog</a>
+        <Link to="/">The React Blog</Link>
       </h1>
       <div className="links">
-        <a href="/">Home</a>
-        <a href="/create">New Blog</a>
-        <a href="/login">Login</a>
+        <NavLink
+          to="/home"
+          activeStyle={{
+            color: "#f1356d",
+          }}
+        >
+          Home
+        </NavLink>
+        <NavLink
+          to="/create"
+          activeStyle={{
+            color: "#f1356d",
+          }}
+        >
+          New Blog
+        </NavLink>
+        <NavLink
+          to="/login"
+          activeStyle={{
+            color: "#f1356d",
+          }}
+        >
+          Login
+        </NavLink>
       </div>
     </nav>
   );

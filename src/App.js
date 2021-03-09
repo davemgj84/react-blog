@@ -1,15 +1,44 @@
+import "./styles/App.scss";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+  useLocation,
+  withRouter,
+} from "react-router-dom";
+import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import "./styles/App.scss";
+import Create from "./components/Create";
 
 const App = () => {
+  const _ScrollToTop = (props) => {
+    const { pathname } = useLocation();
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+    return props.children;
+  };
+  const ScrollToTop = withRouter(_ScrollToTop);
+
   return (
-    <div className="App">
-      <Navbar />
-      <div className="content">
-        <Home />
+    <Router>
+      <div className="App">
+        <Navbar />
+        <div className="content">
+          <ScrollToTop>
+            <Switch>
+              <Route exact path="/">
+                <Redirect to="/home" />
+              </Route>
+              <Route path="/home" component={Home} />
+              <Route path="/create" component={Create} />
+            </Switch>
+          </ScrollToTop>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 };
 
