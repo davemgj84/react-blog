@@ -32,20 +32,20 @@ const Create = () => {
     <div className="create">
       <h2>Create a New Blog</h2>
       <form onSubmit={handleSubmit}>
-        <label>Blog Title:</label>
+        <label>Title:</label>
         <input
           type="text"
           required
           value={title}
           onChange={(evt) => setTitle(evt.target.value)}
         />
-        <label>Blog Body:</label>
+        <label>Body:</label>
         <textarea
           required
           value={body}
           onChange={(evt) => setBody(evt.target.value)}
         ></textarea>
-        <label>Blog Author:</label>
+        <label>Author:</label>
         <select value={author} onChange={(evt) => setAuthor(evt.target.value)}>
           <option value="David">David</option>
           <option value="Kim">Kim</option>

@@ -1,11 +1,14 @@
 .navbar {
-  padding: 20px;
+  padding: 1.5rem;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  max-width: 600px;
+  width: 90%;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
-  h1 a {
+  h1 a,
+  .fab {
+    font-size: 2rem;
     color: #f1356d;
     text-decoration: none;
   }
@@ -13,9 +16,9 @@
     margin-left: auto;
     a {
       font-weight: bold;
-      margin-left: 16px;
-      padding: 8px;
-      border-radius: 8px;
+      margin-left: 4rem;
+      padding: 8px 16px;
+      border-radius: 12px;
       text-decoration: none;
       transition: 0.3s ease;
       &:hover {

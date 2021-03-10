@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <h1>
-        <Link to="/">The React Blog</Link>
+        <Link to="/">
+          <i className="fab fa-react"></i> React Blog
+        </Link>
       </h1>
       <div className="links">
         <NavLink
@@ -24,7 +26,7 @@ const Navbar = () => {
             color: "#fff",
           }}
         >
-          New Blog
+          Create
         </NavLink>
         <NavLink
           to="/login"

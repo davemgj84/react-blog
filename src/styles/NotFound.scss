@@ -1,6 +1,5 @@
 .not-found {
   h2 {
-    font-size: 20px;
     color: #f1356d;
     margin-bottom: 10px;
   }
@@ -11,10 +10,11 @@
     background: #f1356d;
     color: #fff;
     font-weight: bold;
+    font-size: 16px;
     border: 0;
     outline: none;
-    padding: 8px;
-    border-radius: 8px;
+    padding: 8px 16px;
+    border-radius: 12px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
     &:hover {

@@ -19,8 +19,20 @@ const Home = () => {
           </Link>
         </div>
       )}
-      {isLoading && <div>Loading...</div>}
+      {isLoading && (
+        <div className="loading">
+          <h2>
+            Loading<span>...</span>
+          </h2>
+        </div>
+      )}
       {blogs && <BlogList blogs={blogs} title="All Blogs!" />}
+      {blogs && (
+        <BlogList
+          blogs={blogs.filter((blog) => blog.author === "David")}
+          title="My Blogs!"
+        />
+      )}
     </div>
   );
 };
