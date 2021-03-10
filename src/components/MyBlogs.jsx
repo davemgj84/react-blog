@@ -1,15 +1,15 @@
-import "../styles/Home.scss";
+import "../styles/MyBlogs.scss";
 import BlogList from "./BlogList";
 import NotFound from "./NotFound";
 import useFetch from "../hooks/useFetch";
 
-const Home = () => {
+const MyBlogs = () => {
   const { data: blogs, isLoading, error } = useFetch(
     "http://localhost:8000/blogs"
   );
 
   return (
-    <div className="home">
+    <div className="my-blogs">
       {error && <NotFound error={error} message={error} />}
       {isLoading && (
         <div className="loading">
@@ -18,9 +18,14 @@ const Home = () => {
           </h2>
         </div>
       )}
-      {blogs && <BlogList blogs={blogs} title="All Blogs!" />}
+      {blogs && (
+        <BlogList
+          blogs={blogs.filter((blog) => blog.author === "David")}
+          title="My Blogs!"
+        />
+      )}
     </div>
   );
 };
 
-export default Home;
+export default MyBlogs;

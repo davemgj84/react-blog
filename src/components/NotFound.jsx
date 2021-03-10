@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import "../styles/NotFound.scss";
 
-const NotFound = () => {
+const NotFound = ({ message }) => {
   return (
-    <div className="not-found">
+    <div className="error">
       <h2>Sorry...</h2>
-      <p>That page connot be found...</p>
+      <p>{message}</p>
       <Link to="/home">
         <button>Home</button>
       </Link>

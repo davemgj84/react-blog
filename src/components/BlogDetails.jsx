@@ -1,4 +1,5 @@
-import { Link, useHistory, useParams } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
+import NotFound from "./NotFound";
 import useFetch from "../hooks/useFetch";
 import "../styles/BlogDetails.scss";
 
@@ -19,16 +20,14 @@ const BlogDetails = () => {
 
   return (
     <div className="blog-details">
-      {isLoading && <div>Loading...</div>}
-      {error && (
-        <div className="error">
-          <h2>Sorry...</h2>
-          <p>{error}</p>
-          <Link to="/home">
-            <button>Home</button>
-          </Link>
+      {isLoading && (
+        <div className="loading">
+          <h2>
+            Loading<span>...</span>
+          </h2>
         </div>
       )}
+      {error && <NotFound message={error} />}
       {blog && (
         <article>
           <h2>{blog.title}</h2>

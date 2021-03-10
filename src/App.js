@@ -13,6 +13,7 @@ import Home from "./components/Home";
 import Create from "./components/Create";
 import BlogDetails from "./components/BlogDetails";
 import NotFound from "./components/NotFound";
+import MyBlogs from "./components/MyBlogs";
 
 const App = () => {
   const _ScrollToTop = (props) => {
@@ -35,9 +36,12 @@ const App = () => {
                 <Redirect to="/home" />
               </Route>
               <Route path="/home" component={Home} />
+              <Route path="/myblogs" component={MyBlogs} />
               <Route path="/create" component={Create} />
               <Route path="/blogs/:id" component={BlogDetails} />
-              <Route path="*" component={NotFound} />
+              <Route path="*">
+                <NotFound message={"This Page Could Not Be Found..."} />
+              </Route>
             </Switch>
           </ScrollToTop>
         </div>

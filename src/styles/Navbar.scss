@@ -11,6 +11,10 @@
     font-size: 2rem;
     color: #f1356d;
     text-decoration: none;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      color: #f35d8a;
+    }
   }
   .links {
     margin-left: auto;

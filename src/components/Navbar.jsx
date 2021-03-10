@@ -20,6 +20,15 @@ const Navbar = () => {
           Home
         </NavLink>
         <NavLink
+          to="/myblogs"
+          activeStyle={{
+            background: "#f1356d",
+            color: "#fff",
+          }}
+        >
+          My Blogs
+        </NavLink>
+        <NavLink
           to="/create"
           activeStyle={{
             background: "#f1356d",
