@@ -12,6 +12,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Create from "./components/Create";
 import BlogDetails from "./components/BlogDetails";
+import NotFound from "./components/NotFound";
 
 const App = () => {
   const _ScrollToTop = (props) => {
@@ -36,6 +37,7 @@ const App = () => {
               <Route path="/home" component={Home} />
               <Route path="/create" component={Create} />
               <Route path="/blogs/:id" component={BlogDetails} />
+              <Route path="*" component={NotFound} />
             </Switch>
           </ScrollToTop>
         </div>

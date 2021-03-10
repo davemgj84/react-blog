@@ -1,4 +1,5 @@
 import "../styles/Home.scss";
+import { Link } from "react-router-dom";
 import BlogList from "./BlogList";
 import useFetch from "../hooks/useFetch";
 
@@ -9,7 +10,15 @@ const Home = () => {
 
   return (
     <div className="home">
-      {error && <div>{error}</div>}
+      {error && (
+        <div className="error">
+          <h2>Sorry...</h2>
+          <p>{error}</p>
+          <Link to="/home">
+            <button>Try Again...</button>
+          </Link>
+        </div>
+      )}
       {isLoading && <div>Loading...</div>}
       {blogs && <BlogList blogs={blogs} title="All Blogs!" />}
     </div>
