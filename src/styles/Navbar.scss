@@ -13,14 +13,13 @@
     margin-left: auto;
     a {
       margin-left: 16px;
-      padding: 6px;
+      padding: 8px;
+      border-radius: 8px;
       text-decoration: none;
-      transition: 0.3s ease-in-out;
-      // background-color: #f1356d;
-      // color: white;
-      // border-radius: 8px;
+      transition: 0.2s ease;
       &:hover {
-        color: #f1356d;
+        background: #f1356d;
+        color: #fff;
       }
     }
   }

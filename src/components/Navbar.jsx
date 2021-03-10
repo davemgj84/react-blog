@@ -11,7 +11,8 @@ const Navbar = () => {
         <NavLink
           to="/home"
           activeStyle={{
-            color: "#f1356d",
+            background: "#f1356d",
+            color: "#fff",
           }}
         >
           Home
@@ -19,7 +20,8 @@ const Navbar = () => {
         <NavLink
           to="/create"
           activeStyle={{
-            color: "#f1356d",
+            background: "#f1356d",
+            color: "#fff",
           }}
         >
           New Blog
@@ -27,7 +29,8 @@ const Navbar = () => {
         <NavLink
           to="/login"
           activeStyle={{
-            color: "#f1356d",
+            background: "#f1356d",
+            color: "#fff",
           }}
         >
           Login
