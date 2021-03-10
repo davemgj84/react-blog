@@ -12,11 +12,12 @@
   .links {
     margin-left: auto;
     a {
+      font-weight: bold;
       margin-left: 16px;
       padding: 8px;
       border-radius: 8px;
       text-decoration: none;
-      transition: 0.2s ease;
+      transition: 0.3s ease;
       &:hover {
         background: #f1356d;
         color: #fff;
