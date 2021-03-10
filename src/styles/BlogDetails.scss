@@ -28,9 +28,9 @@
       padding: 8px 16px;
       border-radius: 12px;
       cursor: pointer;
-      transition: 0.3s ease-in-out;
+      transition: 0.3s ease;
       &:hover {
-        box-shadow: 0 2px 5px #333;
+        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
       }
     }
   }
