@@ -37,6 +37,7 @@ const Navbar = () => {
         >
           Create
         </NavLink>
+        <Link to="/home">Logout</Link>
       </div>
     </nav>
   );

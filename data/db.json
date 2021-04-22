@@ -1,27 +1,33 @@
 {
   "blogs": [
     {
-      "title": "this",
-      "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae veniam doloremque repudiandae quod, pariatur harum unde ratione, porro repellat iure culpa nam fugit quidem? Aspernatur maxime autem eveniet atque quia.\n\nLorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae veniam doloremque repudiandae quod, pariatur harum unde ratione, porro repellat iure culpa nam fugit quidem? Aspernatur maxime autem eveniet atque quia.\n\nLorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae veniam doloremque repudiandae quod, pariatur harum unde ratione, porro repellat iure culpa nam fugit quidem? Aspernatur maxime autem eveniet atque quia.\n\nLorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae veniam doloremque repudiandae quod, pariatur harum unde ratione, porro repellat iure culpa nam fugit quidem? Aspernatur maxime autem eveniet atque quia.\n\nLorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae veniam doloremque repudiandae quod, pariatur harum unde ratione, porro repellat iure culpa nam fugit quidem? Aspernatur maxime autem eveniet atque quia.",
+      "title": "React - Declarative",
+      "body": "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.\n\nDeclarative views make your code more predictable and easier to debug.",
       "author": "David",
       "id": 1
     },
     {
-      "title": "Why Lorem ipsum is amazing :) ",
-      "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae veniam doloremque repudiandae quod, pariatur harum unde ratione, porro repellat iure culpa nam fugit quidem? Aspernatur maxime autem eveniet atque quia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae veniam doloremque repudiandae quod, pariatur harum unde ratione, porro repellat iure culpa nam fugit quidem? Aspernatur maxime autem eveniet atque quia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae veniam doloremque repudiandae quod, pariatur harum unde ratione, porro repellat iure culpa nam fugit quidem? Aspernatur maxime autem eveniet atque quia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae veniam doloremque repudiandae quod, pariatur harum unde ratione, porro repellat iure culpa nam fugit quidem? Aspernatur maxime autem eveniet atque quia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae veniam doloremque repudiandae quod, pariatur harum unde ratione, porro repellat iure culpa nam fugit quidem? Aspernatur maxime autem eveniet atque quia.",
+      "title": "Component-Based",
+      "body": "Build encapsulated components that manage their own state, then compose them to make complex UIs.\n\nSince component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.",
+      "author": "Kim",
+      "id": 2
+    },
+    {
+      "title": "Learn Once, Write Anywhere",
+      "body": "We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.\n\nReact can also render on the server using Node and power mobile apps using React Native.",
       "author": "David",
       "id": 3
     },
     {
-      "title": "This is the title to my blog",
-      "body": "Hello, while I am here today writing this blog post - I want to acknowledge....",
-      "author": "David",
+      "title": "What is Next?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec ante congue, pulvinar nisi nec, lobortis ex. Praesent laoreet ultrices lectus, a elementum arcu efficitur ac. In egestas aliquet gravida. Nullam ante lorem, mattis ut mattis vel, hendrerit at libero. Suspendisse urna turpis, ultricies ac turpis eget, fringilla tempor lorem. Aenean et vehicula ex. Nunc egestas volutpat suscipit. Integer vitae condimentum massa. Ut auctor nisl eget nunc sollicitudin, a pulvinar sapien rutrum.\n\nUt dignissim sagittis arcu, non interdum arcu suscipit a. Nunc vitae purus lorem. Maecenas vel orci ligula. Sed at ultricies mi. Vivamus tempus rutrum est, eu rhoncus massa sollicitudin vel. Etiam ante elit, sagittis eu orci sit amet, sodales blandit lorem. Maecenas elementum eros imperdiet ex mollis, sit amet maximus magna placerat. Vestibulum porta ante a justo feugiat ornare. Vivamus enim mauris, consequat eget posuere vitae, finibus eget justo.\n\nMaecenas imperdiet porttitor orci, ut semper diam blandit in. Curabitur fringilla orci metus, sed auctor felis luctus ac. In porttitor et massa sit amet pharetra. Sed malesuada sed ligula eu elementum. Sed consectetur fermentum velit ut aliquet. Pellentesque congue risus eget commodo vulputate. Sed feugiat risus eget nunc imperdiet finibus. Pellentesque iaculis vel urna id pellentesque. Nulla molestie est ut felis rhoncus blandit. Nulla risus lectus, ultricies at ornare volutpat, laoreet vel nunc. Donec mattis consequat urna, in pellentesque nibh egestas eu.",
+      "author": "Kim",
       "id": 4
     },
     {
-      "title": "Better Author than David",
-      "body": "I am far better a writer than David. That is all ;) ",
-      "author": "Kim",
+      "title": "How it all works?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec ante congue, pulvinar nisi nec, lobortis ex. Praesent laoreet ultrices lectus, a elementum arcu efficitur ac. In egestas aliquet gravida. Nullam ante lorem, mattis ut mattis vel, hendrerit at libero. Suspendisse urna turpis, ultricies ac turpis eget, fringilla tempor lorem. Aenean et vehicula ex. Nunc egestas volutpat suscipit. Integer vitae condimentum massa. Ut auctor nisl eget nunc sollicitudin, a pulvinar sapien rutrum.\n\nUt dignissim sagittis arcu, non interdum arcu suscipit a. Nunc vitae purus lorem. Maecenas vel orci ligula. Sed at ultricies mi. Vivamus tempus rutrum est, eu rhoncus massa sollicitudin vel. Etiam ante elit, sagittis eu orci sit amet, sodales blandit lorem. Maecenas elementum eros imperdiet ex mollis, sit amet maximus magna placerat. Vestibulum porta ante a justo feugiat ornare. Vivamus enim mauris, consequat eget posuere vitae, finibus eget justo.\n\nMaecenas imperdiet porttitor orci, ut semper diam blandit in. Curabitur fringilla orci metus, sed auctor felis luctus ac. In porttitor et massa sit amet pharetra. Sed malesuada sed ligula eu elementum. Sed consectetur fermentum velit ut aliquet. Pellentesque congue risus eget commodo vulputate. Sed feugiat risus eget nunc imperdiet finibus. Pellentesque iaculis vel urna id pellentesque. Nulla molestie est ut felis rhoncus blandit. Nulla risus lectus, ultricies at ornare volutpat, laoreet vel nunc. Donec mattis consequat urna, in pellentesque nibh egestas eu.",
+      "author": "David",
       "id": 5
     }
   ]
